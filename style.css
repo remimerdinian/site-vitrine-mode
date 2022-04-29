@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    font-family: "Baloo 2";
+}
+
+h1 {
+    text-align: center;
+}
+
+#Produits {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+#Box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Prix {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+hr {
+    height: 1px;
+    width:90px;
+    background-color:black;
+    margin-bottom: 40px; 
+}
